@@ -1,9 +1,9 @@
 # 人机交互期末项目
 
 #### 介绍
-{**以下是 Gitee 平台说明，您可以替换此简介**
-Gitee 是 OSCHINA 推出的基于 Git 的代码托管平台（同时支持 SVN）。专为开发者提供稳定、高效、安全的云端软件开发协作平台
-无论是个人、团队、或是企业，都能够用 Gitee 实现代码托管、项目管理、协作开发。企业项目请看 [https://gitee.com/enterprises](https://gitee.com/enterprises)}
+本项目基于MediaPipe框架实现手势识别的功能，用python3.8完成开发，依赖于python版本的numpy，joblib，pandas，sklearn等库和tensorflow2.8框架，jupyter Notebook工具完成人工智能部分的模型训练和开发，以及用opencv和pyqt完成客户端的简单开发和对视频流的操作。
+本项目在原项目的基础上中学习和重写，修改了一些无效的操作，对图像数据训练并转存为csv文件的代码进行了修改，新增了交互界面封装了原手势识别文件，并在原项目代码上添加了注释。本项目非本人原创，
+地址：[https://github.com/arpita739/Real-time-Vernacular-Sign-Language-Recognition-using-MediaPipe-and-Machine-Learning](http://https://github.com/arpita739/Real-time-Vernacular-Sign-Language-Recognition-using-MediaPipe-and-Machine-Learning)
 
 #### 软件架构
 软件架构说明
