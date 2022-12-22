@@ -2,11 +2,35 @@
 
 #### 介绍
 本项目基于MediaPipe框架实现手势识别的功能，用python3.8完成开发，依赖于python版本的numpy，joblib，pandas，sklearn等库和tensorflow2.8框架，jupyter Notebook工具完成人工智能部分的模型训练和开发，以及用opencv和pyqt完成客户端的简单开发和对视频流的操作。
+
 本项目在原项目的基础上中学习和重写，修改了一些无效的操作，对图像数据训练并转存为csv文件的代码进行了修改，新增了交互界面封装了原手势识别文件，并在原项目代码上添加了注释。本项目非本人原创，
 地址：[https://github.com/arpita739/Real-time-Vernacular-Sign-Language-Recognition-using-MediaPipe-and-Machine-Learning](http://https://github.com/arpita739/Real-time-Vernacular-Sign-Language-Recognition-using-MediaPipe-and-Machine-Learning)
 
-#### 软件架构
-软件架构说明
+#### 软件结构
+项目的文件结构图如下： (不包括数据集文件夹)
+
+```
+files_tree
+│
+│  EXTRACT_DATA.py
+│  files_arrange.py
+│  hand_detection_webcam.py
+│  main.py
+│  TrainImgCapture.py
+│  ui.py
+│  UI.ui
+│  
+├─dataSet
+│      final_datasetBSL.csv
+│      
+├─Detection
+│      Numbers_Detection.ipynb
+│      
+└─model
+        model.pkl
+        
+```
+项目数据集的创建规则为 RESIZED_DATASET > 以标签名区分的文件夹 > 图像文件.png，文件夹也可根据自己需要改名，但需要同步更新EXTRACT_DATA.py代码。
 
 
 #### 安装教程
