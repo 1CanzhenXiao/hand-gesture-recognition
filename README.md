@@ -58,3 +58,9 @@ files_tree
 - 然后将图像转为csv文件数据，用EXTRACT_DATA.py；
 - 训练数据，用Detection文件夹里的ipython_notebook文件训练；
 - 完成上述步骤后，要使用自建数据的手势识别，用main.py即可。
+
+### 小小建议
+
+喜欢的话可以点个小星星
+
+若项目出现问题，请联系我
