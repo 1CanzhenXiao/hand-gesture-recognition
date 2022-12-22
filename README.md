@@ -1,7 +1,7 @@
 # 人机交互期末项目
 
 ## 介绍
-本项目基于MediaPipe框架实现手势识别的功能，用python3.8完成开发，依赖于python版本的numpy，joblib，pandas，sklearn等库和tensorflow2.8框架，jupyter Notebook工具完成人工智能部分的模型训练，开发和使用，以及用opencv和pyqt完成客户端的简单开发和对视频流的操作。
+本项目基于MediaPipe框架实现手势识别的功能，用python3.8完成开发，依赖于python版本的numpy，joblib，pandas，sklearn等库和jupyter Notebook工具完成人工智能部分的模型训练，开发和使用，以及用opencv和pyqt完成客户端的简单开发和对视频流的操作。
 
 本项目在原项目的基础上中学习和重写，修改了一些无效的操作，对图像数据训练并转存为csv文件的代码进行了修改，新增了交互界面封装了原手势识别文件，并在原项目代码上添加了注释。本项目非本人原创，
 地址：[https://github.com/arpita739/Real-time-Vernacular-Sign-Language-Recognition-using-MediaPipe-and-Machine-Learning](http://https://github.com/arpita739/Real-time-Vernacular-Sign-Language-Recognition-using-MediaPipe-and-Machine-Learning)
@@ -42,8 +42,11 @@ files_tree
 
 ## 使用说明
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+若要运行该程序，请确保本机python环境有MediaPipe框架，sklearn，opencv，pyqt，pyqt-tool，numpy，ipython，jupyter notebook等（缺什么下什么就ok）
 
-
+- 若要自建数据，请按上面描述的去建文件夹；
+- 先拍照，用TrainImgCapture.py；
+- 拍完整理文件名，用files_arrange.py；
+- 然后将图像转为csv文件数据，用EXTRACT_DATA.py；
+- 训练数据，用Detection文件夹里的ipython_notebook文件训练；
+- 完成上述步骤后，要使用自建数据的手势识别，用main.py即可。
