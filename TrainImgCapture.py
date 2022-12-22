@@ -6,7 +6,6 @@ if __name__ == '__main__':
     while (1):
         ret, frame = cap.read()
         cv2.imshow("capture", frame)
-
         k = cv2.waitKey(1)
         if k == ord('s'):
             # 通过修改路径快速构造数据图像
