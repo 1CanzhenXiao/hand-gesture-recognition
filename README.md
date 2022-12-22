@@ -39,6 +39,12 @@ files_tree
 - ui.py： 依靠pyqt的pyuic工具将Designer.exe生成的ui文件转换的py文件。
 - UI.ui： 依靠pyqt的图形化设计程序Designer.exe构建的交互界面文件。
 - main.py: 主程序入口，运行即可使用。
+- dataSet文件夹：存放的是图像集转换成的数据集
+- Detection文件夹： 存放的是训练模型的算法
+- model文件夹： 存放的是生成的模型
+
+## 运行界面
+![输入图片说明](picture1.png)
 
 ## 使用说明
 
